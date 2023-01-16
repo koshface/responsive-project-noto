@@ -4,7 +4,81 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>About | Emily Noto's Portfolio</title>
+    <meta
+      name="description"
+      content="Welcome to the portfolio of an amateur coder. Take a look at some of my creations and contact me about small projects you need help with."
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Emily Noto</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="work.html">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html#contact">Contact me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="about-section container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="about-section-content">
+            <h1>Emily Noto</h1>
+            <h2 class="mb-3">👩🏼‍🏫 Instructional Coach based in Tomball, Texas</h2>
+            <p class="mb-4">
+              Here is some more information about me and who I am and what I
+              value. I will also list some experience and blah blah blah.
+            </p>
+            <a href="" class="primary-link">Resume</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img
+            src="images/current-photo.JPG"
+            class="img-fluid rounded"
+            alt="Current Photo"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

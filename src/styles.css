@@ -71,18 +71,6 @@ p {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
-.third-link {
-  display: flex;
-  margin-top: auto;
-  justify-content: center;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
-}
 
 .email-link {
   display: flex;
@@ -183,4 +171,20 @@ p {
   right: 0;
   left: 0;
   z-index: 1030;
+}
+
+.about-section {
+  padding: 120px 20px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.about-section-content {
+  margin: 30px;
 }
