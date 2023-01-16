@@ -173,18 +173,18 @@ p {
   z-index: 1030;
 }
 
-.about-section {
+.content-container {
   padding: 120px 20px;
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 20px;
   font-weight: bolder;
 }
-.about-section-content {
+.content {
   margin: 30px;
 }
