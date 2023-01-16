@@ -188,3 +188,14 @@ p {
 .content {
   margin: 30px;
 }
+
+.content h3 {
+  line-height: 1.5;
+  margin: 15px 0 0;
+}
+
+.content p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
