@@ -34,6 +34,11 @@ h3 {
   opacity: 0.7;
 }
 
+h4 {
+  font-size: 26px;
+  font-family: "Abril Fatface";
+}
+
 h1,
 h2,
 h3 {
@@ -62,7 +67,6 @@ p {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-  text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -72,12 +76,39 @@ p {
   border: 1px solid var(--primary-color);
 }
 
-.email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
+footer {
+  margin: 100px 0;
+}
+
+footer .email-link {
   text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: var(--primary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  padding: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+}
+
+footer .social-links a:hover {
+  color: var(--primary-color);
+  background: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px;
+  border-radius: 10px;
 }
 
 .about-paragraphs {
