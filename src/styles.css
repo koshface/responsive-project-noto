@@ -63,17 +63,27 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
-.primary-link {
+.btn-primary {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  font-size: 18px;
+  line-height: 27px;
+  border-style: none;
 }
-.secondary-link {
+.btn-secondary {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  background: var(--secondary-color);
+  box-shadow: var(--box-shadow);
   color: var(--primary-color);
-  border: 1px solid var(--primary-color);
+  font-size: 18px;
+  line-height: 27px;
+  border-style: none;
 }
 
 footer {
